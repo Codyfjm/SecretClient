@@ -24,6 +24,17 @@ if(action!=null){
 	"{\"msg\":\"Haha7\",\"phone_md5\":\"dasdasaddssasasda\",\"msgId\":\"134123\"},"+
 	"{\"msg\":\"Haha8\",\"phone_md5\":\"dasdasaddssasasda\",\"msgId\":\"134123\"}"+
 				"]}");
+	}else if(action.equals("get_comment")){
+		out.print("{\"status\":1,\"page\":1,\"prepage\":20,\"msgId\":\"12346\",\"comments\":["+
+	"{\"content\":\"Hehe1\",\"phone_md5\":\"dasdasaddssasasda\"},"+
+	"{\"content\":\"Hehe2\",\"phone_md5\":\"dasdasaddssasasda\"},"+
+	"{\"content\":\"Hehe3\",\"phone_md5\":\"dasdasaddssasasda\"},"+
+	"{\"content\":\"Hehe4\",\"phone_md5\":\"dasdasaddssasasda\"},"+
+	"{\"content\":\"Hehe5\",\"phone_md5\":\"dasdasaddssasasda\"},"+
+	"{\"content\":\"Hehe6\",\"phone_md5\":\"dasdasaddssasasda\"},"+
+	"{\"content\":\"Hehe7\",\"phone_md5\":\"dasdasaddssasasda\"},"+
+	"{\"content\":\"Hehe8\",\"phone_md5\":\"dasdasaddssasasda\"}"+
+				"]}");
 	}
 }else{
 	out.print("请指定action和code");
