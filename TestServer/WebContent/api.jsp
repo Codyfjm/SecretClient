@@ -35,6 +35,10 @@ if(action!=null){
 	"{\"content\":\"Hehe7\",\"phone_md5\":\"dasdasaddssasasda\"},"+
 	"{\"content\":\"Hehe8\",\"phone_md5\":\"dasdasaddssasasda\"}"+
 				"]}");
+	}else if(action.equals("pub_comment")){
+		out.print("{\"status\":1}");
+	}else if(action.equals("publish")){
+		out.print("{\"status\":1}");
 	}
 }else{
 	out.print("请指定action和code");
